@@ -7,7 +7,7 @@ const GetCards = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:3000/cards")
+    fetch("https://portfolio-cloudy.onrender.com")
       .then((res) => res.json())
       .then((data) => {
         setCards(data);

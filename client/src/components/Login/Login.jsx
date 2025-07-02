@@ -13,7 +13,7 @@ const Login = ({ setIsAdmin }) => {
     }
 
     try {
-      const res = await axios.get("http://localhost:3000/users", {
+      const res = await axios.get("https://portfolio-cloudy.onrender.com", {
         params: { username, password },
       });
 

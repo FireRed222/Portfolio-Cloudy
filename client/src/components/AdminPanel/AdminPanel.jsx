@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import s from "./AdminPanel.module.css";
 
-const API_URL = "http://localhost:3000/cards";
+const API_URL = "https://portfolio-cloudy.onrender.com";
 
 const AdminPanel = ({ onLogout }) => {
   const [items, setItems] = useState([]);
