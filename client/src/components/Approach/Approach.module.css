@@ -96,6 +96,7 @@
             text-align: center;
             max-width: 338px;
             width: 100%;
+            padding: 0 10px;
 
             .infoTtl {
               font-weight: 700;
