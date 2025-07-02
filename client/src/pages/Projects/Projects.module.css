@@ -65,7 +65,7 @@
 
             .cardImg {
               transform: translateY(30px);
-              width: clamp(17.438rem, -6.609rem + 89.47vw, 28.063rem);
+              width: clamp(15.438rem,-6.609rem + 89.47vw,28.063rem);
             }
           }
 
