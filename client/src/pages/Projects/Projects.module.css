@@ -1,0 +1,241 @@
+.projects {
+  background-color: #000319;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 16px;
+
+  .container {
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    /* padding: 0 16px; */
+
+    .ttl {
+      font-weight: 700;
+      font-size: clamp(2.25rem, 0.553rem + 6.32vw, 3rem);
+      line-height: 100%;
+      letter-spacing: -0.04em;
+      color: #fff;
+      text-align: center;
+
+      .bold {
+        font-weight: 700;
+        font-size: clamp(2.25rem, 0.553rem + 6.32vw, 3rem);
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        color: #cbacf9;
+      }
+    }
+
+    .block {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .card {
+        max-width: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(150deg, #04071d 0%, #0c0e23 100%);
+        border-radius: 23px;
+        padding: 36px 24px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+
+        .box {
+          max-width: 552px;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 36px;
+
+          .cardbg {
+            background-image: url("/cardbg.png");
+            border-radius: 14px;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+
+            .cardImg {
+              transform: translateY(30px);
+              width: clamp(17.438rem, -6.609rem + 89.47vw, 28.063rem);
+            }
+          }
+
+          .info {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .text {
+              display: flex;
+              flex-direction: column;
+              gap: 18px;
+
+              .cardTtl {
+                font-weight: 700;
+                font-size: clamp(1.25rem, -0.447rem + 6.32vw, 2rem);
+                line-height: 112%;
+                letter-spacing: -0.02em;
+                color: #fff;
+              }
+
+              .cardSubttl {
+                font-weight: 400;
+                font-size: clamp(0.875rem, 0.026rem + 3.16vw, 1.25rem);
+                line-height: 130%;
+                color: #bec1dd;
+              }
+            }
+
+            .cardFooter {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              .tech {
+                display: flex;
+
+                .circle1 {
+                  border-radius: 100%;
+                  background: linear-gradient(150deg, #04071d 0%, #0c0e23 100%);
+                  width: clamp(2.125rem, -0.138rem + 8.42vw, 3.125rem);
+                  height: clamp(2.125rem, -0.138rem + 8.42vw, 3.125rem);
+                  border: 1px solid rgba(255, 255, 255, 0.1);
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+
+                  .img1 {
+                    width: 60%;
+                  }
+                }
+                .circle2 {
+                  border-radius: 100%;
+                  background: linear-gradient(150deg, #04071d 0%, #0c0e23 100%);
+                  width: clamp(2.125rem, -0.138rem + 8.42vw, 3.125rem);
+                  height: clamp(2.125rem, -0.138rem + 8.42vw, 3.125rem);
+                  border: 1px solid rgba(255, 255, 255, 0.1);
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  position: relative;
+                  transform: translateX(-4px);
+
+                  .img2 {
+                    width: 60%;
+                  }
+                }
+                .circle3 {
+                  border-radius: 100%;
+                  background: linear-gradient(150deg, #04071d 0%, #0c0e23 100%);
+                  width: clamp(2.125rem, -0.138rem + 8.42vw, 3.125rem);
+                  height: clamp(2.125rem, -0.138rem + 8.42vw, 3.125rem);
+                  border: 1px solid rgba(255, 255, 255, 0.1);
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  position: relative;
+                  transform: translateX(-8px);
+
+                  .img3 {
+                    width: 55%;
+                  }
+                }
+                .circle4 {
+                  border-radius: 100%;
+                  background: linear-gradient(150deg, #04071d 0%, #0c0e23 100%);
+                  width: clamp(2.125rem, -0.138rem + 8.42vw, 3.125rem);
+                  height: clamp(2.125rem, -0.138rem + 8.42vw, 3.125rem);
+                  border: 1px solid rgba(255, 255, 255, 0.1);
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  position: relative;
+                  transform: translateX(-12px);
+
+                  .img4 {
+                    width: 60%;
+                  }
+                }
+                .circle5 {
+                  border-radius: 100%;
+                  background: linear-gradient(150deg, #04071d 0%, #0c0e23 100%);
+                  width: clamp(2.125rem, -0.138rem + 8.42vw, 3.125rem);
+                  height: clamp(2.125rem, -0.138rem + 8.42vw, 3.125rem);
+                  border: 1px solid rgba(255, 255, 255, 0.1);
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  position: relative;
+                  transform: translateX(-16px);
+
+                  .img5 {
+                    width: 60%;
+                  }
+                }
+              }
+
+              .routerLink {
+                .linkBox {
+                  display: flex;
+                  gap: 10px;
+                  align-items: center;
+
+                  &:hover {
+                    .link {
+                      color: #9c85c0;
+                    }
+
+                    svg {
+                      path {
+                        fill: #9c85c0;
+                      }
+                    }
+                  }
+
+                  &:active {
+                    .link {
+                      color: #c6a4f8;
+                    }
+
+                    svg {
+                      path {
+                        fill: #c6a4f8;
+                      }
+                    }
+                  }
+
+                  .link {
+                    font-weight: 500;
+                    font-size: clamp(0.875rem, 0.026rem + 3.16vw, 1.25rem);
+                    line-height: 120%;
+                    letter-spacing: -0.02em;
+                    color: #cbacf9;
+                    transition: 0.3s;
+                  }
+
+                  svg {
+                    transform: translateY(2px);
+                    width: clamp(0.563rem, -0.003rem + 2.11vw, 0.813rem);
+                    height: clamp(0.625rem, 0.059rem + 2.11vw, 0.875rem);
+                    path {
+                      transition: 0.3s;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

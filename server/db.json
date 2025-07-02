@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "cldeu73",
+      "password": "lkm1@@"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Michael Johnson",
+      "quote": "Collaborating with Temur was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Temur's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Temur is the ideal partner.",
+      "job": "Director of AlphaStream Technologies",
+      "src": "/asianman.png",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "src": "/gojo.jfif",
+      "quote": "Working with Temur? Now that was refreshing. The guy’s got precision, speed, and the kind of dedication you don’t see often — even in my line of work. Every part of the project was smooth, sharp, and honestly? Kinda impressive. If you're looking to level up your site and your brand, Temur's your guy. Trust me — and I don’t say that lightly.",
+      "name": "Satoru Gojo",
+      "job": "Head of Gojo Inc."
+    },
+    {
+      "id": "3",
+      "src": "/johnny.jfif",
+      "quote": "Working with Temur reminded me of racing across the vast deserts of the Steel Ball Run — relentless, focused, and always pushing forward. What stood out most? That passion — the kind that doesn’t quit, even when the odds are stacked. If you want someone who’ll treat your vision like it’s their own finish line, Temur’s your guy.",
+      "name": "Johnny Joestar",
+      "job": "Director of Speedwagon Co."
+    },
+    {
+      "name": "Hatsune Miku",
+      "quote": "Working with Temur was so much fun~! 💙 He's super professional, always on time, and puts so much heart into everything he does! You can really feel his passion for development in every little detail. If you want your website to shine bright and your brand to stand out, Temur is definitely the one to call!✨",
+      "job": "Vocaloid Celebrity",
+      "src": "/miku.jfif",
+      "id": "4"
+    }
+  ]
+}

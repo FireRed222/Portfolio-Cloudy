@@ -1,0 +1,95 @@
+.work {
+  background-color: #000319;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 0 16px;
+
+    .ttl {
+      font-weight: 700;
+      font-size: clamp(2.25rem, 0.714rem + 5.71vw, 3rem);
+      line-height: 100%;
+      letter-spacing: -0.04em;
+      color: #fff;
+
+      .bold {
+        font-weight: 700;
+        font-size: clamp(2.25rem, 0.714rem + 5.71vw, 3rem);
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        color: #cbacf9;
+      }
+    }
+
+    .block {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1240px;
+      width: 100%;
+      /* grid-auto-rows: 190px; */
+      column-gap: 40px;
+      row-gap: 30px;
+      justify-content: center;
+      /* grid-template-columns: auto auto; */
+
+      .card {
+        background: linear-gradient(150deg, #04071d 0%, #0c0e23 100%);
+        max-width: 600px;
+        width: 100%;
+        border-radius: 23px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-top: 2px solid rgba(255, 255, 255, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: clamp(2.188rem, 0.396rem + 6.67vw, 3.063rem) clamp(1.25rem, -2.461rem + 13.81vw, 3.063rem);
+        user-select: none;
+        transform-style: preserve-3d;
+        will-change: transform;
+
+        @media (max-width: 640px) {
+            border-top: 4px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .box {
+          display: flex;
+          gap: clamp(1.25rem, -0.03rem + 4.76vw, 1.875rem);
+
+          @media (max-width: 640px) {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+
+          .info {
+            display: flex;
+            flex-direction: column;
+            gap: clamp(0.313rem, -0.583rem + 3.33vw, 0.75rem);
+
+            .infoTtl {
+              font-weight: 700;
+              font-size: clamp(1.25rem, 0.482rem + 2.86vw, 1.625rem);
+              line-height: 125%;
+              letter-spacing: -0.01em;
+              color: #fff;
+            }
+
+            .infoSubttl {
+              font-weight: 500;
+              font-size: clamp(0.875rem, 0.619rem + 0.95vw, 1rem);
+              line-height: 130%;
+              color: #bec1dd;
+            }
+          }
+        }
+      }
+    }
+  }
+}

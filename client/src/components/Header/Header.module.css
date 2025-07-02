@@ -1,0 +1,94 @@
+.header {
+  background-color: #000319;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  background-image: url("/starrybg.png");
+
+  .container {
+    position: relative;
+    z-index: 10;
+    max-width: 938px;
+    width: 100%;
+    padding: 0 16px 0 16px;
+
+    .ttl {
+      line-height: 120%;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      text-align: center;
+      color: #e4ecff;
+      margin-bottom: 22px;
+      font-size: clamp(0.75rem, 0.213rem + 2vw, 1rem);
+    }
+
+    .block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+
+      .subttl {
+        font-weight: 700;
+        font-size: clamp(3rem, -0.225rem + 12vw, 4.5rem);
+        line-height: 100%;
+        letter-spacing: -0.05em;
+        text-align: center;
+        color: #fff;
+
+        .bold {
+          font-weight: 700;
+          font-size: clamp(3rem, -0.225rem + 12vw, 4.5rem);
+          line-height: 100%;
+          letter-spacing: -0.05em;
+          text-align: center;
+          color: #cbacf9;
+        }
+      }
+      .text {
+        font-size: clamp(1rem, -0.075rem + 4vw, 1.5rem);
+        line-height: 120%;
+        text-align: center;
+        color: #e4ecff;
+      }
+      .link {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        button {
+          padding: clamp(1.25rem, 0.875rem + 1.25vw, 1.375rem) 40px;
+          background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+          font-weight: 500;
+          font-size: clamp(1rem, 0.731rem + 1vw, 1.125rem);
+          line-height: 120%;
+          letter-spacing: -0.03em;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          max-width: 209px;
+          width: 100%;
+          border-radius: 14px;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+
+          &:hover {
+            cursor: pointer;
+            background: linear-gradient(90deg, #101323 0%, #050719 100%);
+          }
+
+          &:active {
+            background: linear-gradient(90deg, #1c223f 0%, #080c29 100%);
+          }
+
+          @media (max-width: 560px) {
+            max-width: none;
+          }
+        }
+      }
+    }
+  }
+}

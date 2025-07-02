@@ -1,0 +1,66 @@
+.error {
+  min-height: 110dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  overflow: auto;
+  scrollbar-width: none;
+
+  .back {
+    background-image: url("/noise.png");
+    opacity: 0.1;
+    position: absolute;
+    z-index: -1;
+    max-width: 1920px;
+    width: 100%;
+    min-height: 110dvh;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .ttl {
+      color: white;
+      font-size: clamp(11.25rem, 0.184rem + 41.18vw, 15.625rem);
+      font-weight: 700;
+      user-select: none;
+    }
+    .subttl {
+      color: #cbacf9;
+      font-size: clamp(1.563rem, 0.772rem + 2.94vw, 1.875rem);
+      user-select: none;
+      text-align: center;
+    }
+
+    .text {
+      color: rgba(255, 255, 255, 0.52);
+      text-align: center;
+      margin-bottom: 30px;
+      user-select: none;
+      font-size: clamp(0.875rem, 0.559rem + 1.18vw, 1rem);
+    }
+
+    .btn {
+      padding: 20px 40px;
+      background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+      font-weight: 500;
+      font-size: clamp(1rem, 0.731rem + 1vw, 1.125rem);
+      line-height: 120%;
+      letter-spacing: -0.03em;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-radius: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+
+.back {
+  max-width: 1920px;
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: clamp(1.875rem, -0.301rem + 8.1vw, 2.938rem);
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media (max-height: 830px) {
+    padding-top: 35px;
+  }
+  @media (max-height: 700px) {
+    padding-top: 30px;
+  }
+  @media (max-height: 650px) {
+    padding-top: 20px;
+  }
+
+  .nav {
+    max-width: 551px;
+    width: 100%;
+    border-radius: 13px;
+    background: linear-gradient(150deg, #04071d 0%, #0c0e23 100%);
+    backdrop-filter: blur(10px);
+    opacity: 0.9;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  
+
+  
+    .container {
+      padding: 24px 50px;
+
+      @media (max-width: 550px) {
+        padding: 14px 45px;
+      }
+
+      @media (max-width: 480px) {
+        padding: 14px 30px;
+      }
+
+      @media (max-height: 830px) {
+        padding: 14px 35px;
+      }
+      @media (max-height: 730px) {
+        padding: 14px 30px;
+      }
+
+      .links {
+        display: flex;
+        justify-content: space-between;
+
+        .li {
+          position: relative;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          list-style-type: none;
+          .inactive {
+            font-size: clamp(0.875rem, 0.606rem + 1vw, 1rem);
+            font-weight: 500;
+            letter-spacing: -0.03em;
+            color: #c1c2d3;
+
+            @media (max-width: 430px) {
+              font-size: clamp(0.75rem, -0.102rem + 3.64vw, 0.875rem);
+            }
+          }
+          .active {
+            font-size: clamp(0.875rem, 0.606rem + 1vw, 1rem);
+            font-weight: 500;
+            line-height: 110%;
+            letter-spacing: -0.03em;
+            color: #fff;
+
+            @media (max-width: 430px) {
+              font-size: clamp(0.75rem, -0.102rem + 3.64vw, 0.875rem);
+            }
+          }
+          .dot {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 6px;
+            height: 6px;
+            background-color: #7043ec;
+            border-radius: 9999px;
+          }
+        }
+      }
+    }
+  }
+}
